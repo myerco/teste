@@ -295,6 +295,7 @@ defaults:
       path: ""
       type: docs
     values:
+      author_profile: false
       sidebar:
         nav: "docs"
   # _pages
@@ -302,5 +303,6 @@ defaults:
       path: ""
       type: pages
     values:
+      author_profile: false
       sidebar:
         nav: "docs"        
