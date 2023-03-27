@@ -310,7 +310,6 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
-
   # _recipes
   - scope:
       path: ""
