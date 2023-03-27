@@ -140,7 +140,7 @@ A origem da palavra deriva do de um termo do latim, *jocus*, que significa brinc
 %}
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/jogatina_das_decadas/chess_game.webp"><img src="{{ site.baseurl }}/assets/images/mint-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/assets/images/jogatina_das_decadas/chess_game.webp"><img src="{{ site.baseurl }}/assets/images/jogatina_das_decadas/chess_game.webp"></a>
   <figcaption>O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores.</figcaption>
 </figure>
 
