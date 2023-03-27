@@ -9,30 +9,29 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/jogatina_das_decadas/jogatina_das_decadas.webp
+    alt: "A Jogatina das décadas"
+    title: "A Jogatina das décadas"
+    excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
+    url: "/docs/a_jogatina_das_decadas/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    btn_label: "Saber mais"
+  - image_path: /assets/images/unreal/unreal_engine.webp
+    alt: "Unreal Engine com C++ e Blueprint"
+    title: "Unreal Engine com C++ e Blueprint"
+    excerpt: "Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++."
+    url: "/docs/unreal/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Saber mais"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    alt: "Me conta uma história"
+    title: "Me conta uma história"
+    excerpt: "Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história."
+    url: "/docs/me_conta_uma_historia/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Saber mais"      
 ---
 
 {% include feature_row %}
