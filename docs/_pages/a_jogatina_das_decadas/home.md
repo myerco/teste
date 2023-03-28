@@ -6,8 +6,6 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 ---
 
-***
-
 <!--
 - [1. O que é um Jogo?](#1-o-que-é-um-jogo)
   - [1.1. O curso de Jogatina das Décadas](#11-o-curso-de-jogatina-das-décadas)
