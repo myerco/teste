@@ -63,7 +63,9 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
 
 ### 1.5. Renderização
 
-`DrawCalls` - Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução pé da letra, basicamente são quantos objetos estão sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes quanto as luzes que os afetam.
+#### 1.5.1. DrawCalls
+
+Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução pé da letra, basicamente são quantos objetos estão sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes quanto as luzes que os afetam.
   
 {% include image.html
     src="https://unreal.tips/wp-content/uploads/2019/05/Drawcalls.jpg"
@@ -71,7 +73,9 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
     caption="Unreal Tips."
 %}  
 
-`Vertex Shaders` - É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
+#### 1.5.2. Vertex Shaders
+
+É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/8/84/Phong-shading-sample.jpg"
@@ -80,7 +84,9 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
     ref="https://en.wikipedia.org/wiki/Shader"
 %}  
 
-`Pixel Shader` - Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento",uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
+#### 1.5.3. Pixel Shader
+
+Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento",uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Shading_models.png"
@@ -88,7 +94,9 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
     caption="Os tipos mais simples de sombreadores de pixel geram um pixel da tela como um valor de cor; sombreadores mais complexos com várias entradas / saídas também são possíveis."
 %}
 
-`Geometry Shaders` - Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+#### 1.5.4. Geometry Shaders
+
+Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
 
 {% include imagelocal.html
     src="computacao_grafica/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg"
@@ -96,9 +104,13 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
     caption="É uma sequência de etapas que o OpenGL executa ao renderizar objetos. Esta visão geral fornecerá uma descrição de alto nível das etapas do pipeline."
 %}
 
-`Fragment Shader` - É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
+#### 1.5.5. Fragment Shader
+
+É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
   
-`Rasterization` - O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
+#### 1.5.6. Rasterization
+
+ O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
   
 _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o próximo ponto depois de um determinado ponto; não existem quebras.
 
@@ -111,19 +123,20 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
 
 ### 1.6. Conclusão
 
+**Nota:** Componentes = `DrawCalls`
+{: .notice--warning}
+
 **1.** O custo para renderizar muitos polígonos é muitas vezes menor que o Drawcall;
 
 **2.** 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação;
 
 **3.** `Drawcall` tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença;  
 
-**5.** Componentes = `DrawCalls`;
+**4.** Componentes ocluem e são renderizados um por um;
 
-**6.** Componentes ocluem e são renderizados um por um;
+**5.** Mesclar em um único ator geralmente não faz diferença para a renderização;
 
-**7.** Mesclar em um único ator geralmente não faz diferença para a renderização;
-
-**8.** Para diminuir o `Drawcalls` é melhor usar menos modelos maiores do que muitos modelos pequenos, você não pode fazer muito isso, no entanto, isso afeta todo o resto negativamente;
+**6.** Para diminuir o `Drawcalls` é melhor usar menos modelos maiores do que muitos modelos pequenos, você não pode fazer muito isso, no entanto, isso afeta todo o resto negativamente;
 
 - Pior para oclusão - A oclusão é mais rápida por si só, mas não será capaz de fazer um trabalho bom o suficiente, tem menos objetos que precisam ser verificados quanto à oclusão, mas tem uma chance menor de realmente ocluir alguma coisa;
 - Pior para o lightmapping - `Lightmap` tem uma quantidade limite de espaço, a quantidade máxima de espaço é a textura do mapa de luz, independentemente da resolução, o mapa de luz também tem um limite de resolução superior;
@@ -142,7 +155,7 @@ Neste capitulo vamos analisar como é realizado o processamento de imagens pela 
 
 ### 2.1. O processo de renderização no Unreal Engine
 
-Para exemplificar o processo de renderização vamos apresentar os seguintes passos conforme as *thread* são executas:
+Para exemplificar o processo de renderização vamos apresentar os seguintes passos conforme as _thread_ são executas:
 
 | Threads      |                                         |                                         |                                           |                                           |
 | :----------- | :-------------------------------------- | :-------------------------------------- | :---------------------------------------- | :---------------------------------------- |
@@ -494,8 +507,8 @@ RHI significa Rendering Hardware Interface. Este comando exibe várias estatíst
 %}
 
 - `Render target memory` -  Mostra o peso total de alvos de renderização como o GBuffer (que armazena as informações finais sobre iluminação e materiais) ou mapas de sombras. O tamanho dos buffers depende da resolução de renderização do jogo, enquanto as sombras são controladas pelas configurações de qualidade das sombras. É útil verificar esse valor periodicamente em sistemas com várias quantidades de RAM de vídeo e, em seguida, ajustar as predefinições de qualidade do seu projeto de acordo.
-- `Triangles drawn` - Este é o número final de triângulos. É após o abate de *frustum* e oclusão. Pode parecer muito grande em comparação com o *polycount* de suas malhas. É porque o número real inclui sombras (que "copiam" malhas para desenhar mapas de sombras) e mosaico. No editor, também é afetado pela seleção.
-- `DrawPrimitive calls` -  As chamadas *Draw* podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de *draw* emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
+- `Triangles drawn` - Este é o número final de triângulos. É após o abate de _frustum_ e oclusão. Pode parecer muito grande em comparação com o _polycount_ de suas malhas. É porque o número real inclui sombras (que "copiam" malhas para desenhar mapas de sombras) e mosaico. No editor, também é afetado pela seleção.
+- `DrawPrimitive calls` -  As chamadas _Draw_ podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de _draw_ emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
 
 #### 2.12.1. Comando do console
 
@@ -505,7 +518,7 @@ stat RHI
 
 ### 2.13. O comando Stat unit e Stat FPS
 
-**Stat fps** nos mostra o número final de *fps* e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
+**Stat fps** nos mostra o número final de _fps_ e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_stat_unit.jpg"
