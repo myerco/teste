@@ -107,7 +107,7 @@ Utilizando e entendendo os elementos e as técnicas envolvidas na geração de i
 
 Construir jogos digitais para que possam ser executados em diversas plataformas, sejam de arquiteturas e hardware ou sistemas operacionais diferentes exige conhecimento de técnicas de renderização de objetos na tela, bem como conhecer os elementos que os formam.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/game_dungeon_crowley.jpg"
     alt="Figura: Dungeon Crowley - Estúdio Animvs."
     caption="Figura: Dungeon Crowley - Estúdio Animvs."
@@ -693,7 +693,7 @@ Desired Max Draw Distance = 1000
 1. Adicione o volume `Cull Distance Volume` localizado em `Place Actors/Volumes`.
 1. Altere as dimensões do objeto para definir a área de corte.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_cullDistanceVolume_size.jpg"
     alt="Figura: CullDistanceVolume Size."
     caption="Figura: CullDistanceVolume Size."
@@ -701,7 +701,7 @@ Desired Max Draw Distance = 1000
 
 1. Configure a matriz de distância e tamanho, `Cull Distances` para o corte.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_cullDistanceVolume_Array_distances.jpg"
     alt="Figura: CullDistanceVolume Cull Distance Array."
     caption="Figura: CullDistanceVolume Cull Distance Array."
@@ -804,7 +804,7 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
 
 - Para visualizar o Grid de células na cena, `Show` > `Visualize` > `Precomputed Visibility Cells`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_precomputed_visibility_volume.jpg"
     alt="Figura: Precomputed Visibility Cells, em azul as células."
     caption="Visualizando células."
@@ -840,7 +840,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 
 1. Marque a posição da camera com o comando `Ctrl + 1`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_freezerendering_before.jpg"
     alt="Figura: Freezerendering before."
     caption="Figura: Freezerendering before."
@@ -848,7 +848,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 
 1. Com comando `Stat initviews` apresente as estatistas.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_stat_initviews_complete_scene.jpg"
     alt="Figura: Stat initviews."
     caption="Figura: Stat initviews."
@@ -856,7 +856,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 
 1. Alterne para a visualização e controle de câmera.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_camera_actor.jpg"
     alt="Figura: Stat initviews."
     caption="Figura: Stat initviews."
@@ -864,7 +864,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 
 1. Perceba que a média de objetos cortados na cena aumentou (`Frustum Culled Primitives`) e os objetos visíveis diminuiu (`Visible static mesh elements`).
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_stat_initviews_complete_scene_camera.jpg"
     alt="Figura: Stat initviews complete scene camera.."
     caption="Figura: Stat initviews complete scene camera."
@@ -873,7 +873,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 1. Com o comando `freezerendering` congele a renderização;
 2. Ejete a câmera para poder navegar pela cena e aperte a tecla **1**, que foi utilizada para marcar a posição da câmera antes.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_freezerendering_after.jpg"
     alt="Figura: Stat initviews after."
     caption="Figura: Stat initviews after."
@@ -918,7 +918,7 @@ A,B,D são processados na GPU.
 
 A GPU agora tem uma lista de modelos e transformações, mas se apenas renderizássemos esta informação iria causar uma grande quantidade de renderização de pixels redundantes, portanto, precisamos descobrir quais modelos serão exibidos com antecedência.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering.jpg"
     alt="Figura. 3 Objetos na cena."
     caption="Figura. 3 Objetos na cena."
@@ -933,7 +933,7 @@ A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 
 Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaixo um exemplo de como é feita a renderização.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall_2.jpg"
     alt="Figura: A imagem acima renderiza 5 vezes."
     caption="Figura: A imagem acima renderiza 5 vezes."
@@ -943,7 +943,7 @@ Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaix
 1. Objetos 1, 2 e 3;
 1. Céu.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall.jpg"
     alt="Figura: A imagem acima renderiza 6 vezes."
     caption="Figura: A imagem acima renderiza 6 vezes."
@@ -954,7 +954,7 @@ Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaix
 3. Parte do Objeto 3;
 4. Céu.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall_3.jpg"
     alt="Figura: Gemeotry Hendering Drawcall."
     caption="Figura: Gemeotry Hendering Drawcall."
@@ -970,7 +970,7 @@ O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena
 
 RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_stat_rhi.jpg"
     alt="Figura: Stat RHI."
     caption="Figura: Stat RHI."
@@ -990,7 +990,7 @@ stat RHI
 
 **Stat fps** nos mostra o número final de *fps* e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_stat_unit.jpg"
     alt="Figura: Stat Unit."
     caption="Figura: Stat Unit."
