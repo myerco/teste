@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/cafegeek_small.webp
+  overlay_image: /assets/images/cafegeek_roteirizacao.jpg
 excerpt: >
   O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo
 feature_row:
@@ -12,7 +12,7 @@ feature_row:
     alt: "A Jogatina das décadas"
     title: "A Jogatina das décadas"
     excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
-    url: "/docs/a_jogatina_das_decadas/"
+    url: "/pages/a_jogatina_das_decadas/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
   - image_path: /assets/images/unreal/unreal_engine.webp
