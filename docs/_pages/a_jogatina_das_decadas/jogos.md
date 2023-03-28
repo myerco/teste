@@ -78,11 +78,7 @@ Trabalham com reflexos, coordenação e cognição.
 
 ***
 
-> "Nada é verdade, tudo é permitido."
->
-> Assassin's Creed: Revelations.
-
-"O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens."
+>"O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens."
 >
 > The Legend of Zelda: Ocarina of Time
 
@@ -92,11 +88,11 @@ Trabalham com reflexos, coordenação e cognição.
     caption="Figura: Jogos de Cartas."
 %}
 
-“Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.”
+**Nota:** Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.
+{: .notice--info}
 
-*Representação de jogo eletrônico.*
-
-Sistema formal fechado que subjetivamente representa uma extensão da realidade.
+**Representação de jogo eletrônico:**  Sistema formal fechado que subjetivamente representa uma extensão da realidade.
+{: .notice--info}
 
 ### 2.1. As características dos jogos Eletrônicos
 
@@ -150,7 +146,8 @@ Envolve aplicar características de realidade como morte, ferimentos, quedas e a
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).
 
-Definem a identidade do jogo.
+**Nota:**Definem a identidade do jogo.
+{: .notice--warning}
 
 ### 2.3. Divertimento
 
@@ -164,7 +161,7 @@ Definem a identidade do jogo.
 
 Reflexo de um resultado positivo do jogo às ações do jogador.
 
-### 2.4. Os tipos de jogos Eletrônicos
+## 3. Os tipos de jogos Eletrônicos
 
 - RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos;
 
@@ -202,7 +199,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - Ação: Este desafia a velocidade, reflexo e raciocínio rápido do jogador. Tipicamente possuem características de conflitos com força física violenta, especialmente combate de tiros e/ou espadas como maior característica interativa.
 
-### 2.5. O mercado de jogos eletrônicos
+## 4. O mercado de jogos eletrônicos
 
 > A Sombra,
 >
@@ -214,9 +211,9 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
     caption="Figura: Flappy Bird."
 %}
 
-### 2.6. Qual o  custo de produção de jogo eletrônico?
+### 4.1. Qual o  custo de produção de jogo eletrônico?
 
-#### 2.6.1. 2009
+#### 4.1.1. 2009
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG"
@@ -230,7 +227,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - Left 4 Dead 2 - $25 million (marketing).
 
-#### 2.6.2. 2010
+#### 4.1.2. 2010
 
 {% include image.html
     src="https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1024.jpg"
@@ -240,7 +237,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - God of War III - $44 million.
 
-#### 2.6.3. 2011
+#### 4.1.3. 2011
 
 {% include image.html
     src="https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg"
@@ -254,7 +251,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - Homefront - $50 million.
 
-#### 2.6.4. 2012
+#### 4.1.4. 2012
 
 {% include image.html
     src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg"
@@ -264,7 +261,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - Ghost Recon: Future Soldier - €50 million.
 
-#### 2.6.5. 2013
+#### 4.1.5. 2013
 
 {% include image.html
     src="https://s2.glbimg.com/5Zw6bFIK4an2e4c22X98N6f3jMw=/0x0:300x200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/T/ETBWDpSKidhOOZ9d8ZXQ/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.jpg"
@@ -274,7 +271,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - Disney Infinity - $100 million.
 
-#### 2.6.6. 2014
+#### 4.1.6. 2014
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png"
@@ -286,7 +283,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 - Watch Dogs - $68 million.
 
-### 2.7. Complexidade e valor de produção
+### 4.2. Complexidade e valor de produção
 
 A seguir será apresentado quando custa estimativamente produzir um jogo digital por ordem de complexidade e custo.
 
@@ -306,11 +303,11 @@ A seguir será apresentado quando custa estimativamente produzir um jogo digital
 
 - [List of most expensive video games to develop](https://en.wikipedia.org/wiki/List_of_most_expensive_video_games_to_develop)
 
-## 3. Evolução dos jogos eletrônicos
-
 ***
 
-### 3.1. Primeira geração (1971-1977)
+## 5. Evolução dos jogos eletrônicos
+
+### 5.1. Primeira geração (1971-1977)
 
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
 
@@ -340,7 +337,7 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
     caption="Figura: Conheça Pong, o primeiro videogame lucrativo da história - <https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml>."
 %}
 
-### 3.2. Segunda geração (1978 - 1983)
+### 5.2. Segunda geração (1978 - 1983)
 
 Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
 
@@ -350,7 +347,7 @@ Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do 
     caption="Figura: Pac-Man."
 %}
 
-### 3.3. Terceira geração (1984 - 1990)
+### 5.3. Terceira geração (1984 - 1990)
 
 Geração onde teve a estreia do clássico NES (Nintendo Entertainment System) da nintendo e também o Master System da SEGA, conseguindo chegar em algumas produções de jogos em 16 bits. Exemplos de jogos de destaques dessa geração são o Sonic e Super Mário Bros. 1, 2 e 3, esses últimos que deram início ao mundo extraordinário de fases de aventuras e plataformas do mascote da Nintendo.
 
@@ -372,7 +369,7 @@ Jogos da Terceira Geração:
     caption="Figura: Tetris."
 %}
 
-### 3.4. Quarta geração (1991 - 1999)
+### 5.4. Quarta geração (1991 - 1999)
 
 A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
 
@@ -420,7 +417,7 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
     caption="Figura: Tomb_Raider The Last Revelation."
 %}
 
-### 3.5. Quinta Geração (2000 - Hoje)
+### 5.5. Quinta Geração (2000 - Hoje)
 
 A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
@@ -431,11 +428,11 @@ alt="Figura: The Last of Us 2."
     caption="Figura: The Last of Us 2."
 %}
 
-## 4. Era dos Videogames
-
 ***
 
-### 4.1. Nintendo
+## 6. Era dos Videogames
+
+### 6.1. Nintendo
 
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch. Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
@@ -445,7 +442,7 @@ A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou
     caption="Figura: Nintendo Switch."
 %}
 
-### 4.2. Sony
+### 6.2. Sony
 
 A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2). Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3. Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis. No início de 2013 anunciou o novo console da empresa, o PlayStation 4, console da oitava geração, que foi lançado no dia 15 de Novembro de 2013 na América do Norte.
 
@@ -455,7 +452,7 @@ A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2).
     caption="Figura: PS5."
 %}
 
-### 4.3. Microsoft
+### 6.3. Microsoft
 
 A Microsoft é uma empresa gigante de software e hardware. Estreou-se no mercado dos consoles em 2001 com o Xbox. Em 2005 deu início a sétima geração com o Xbox 360, e em 2013 lançou o seu console da oitava geração: Xbox One, lançado dia 22 de Novembro de 2013.
 
@@ -467,7 +464,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
     caption="Figura: Xbox XS."
 %}
 
-### 4.4. Jogos de consoles (Xbox, PS)
+### 6.4. Jogos de consoles (Xbox, PS)
 
 - The Last Of Us (PS3, PS4);
 
@@ -485,7 +482,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 
 - Gears Of War (Xbox Classic, Xbox 360, Xbox One).
 
-### 4.5. Jogos de consoles (Nintendo)
+### 6.5. Jogos de consoles (Nintendo)
 
 - The Legend Of Zelda  (NES, SNES,GB, GBC, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch);
 
@@ -497,7 +494,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 
 - Pokemon (NES, SNES, GB, GBC, GBA, GC, N64, Wii, WiiU, Nintendo Switch).
 
-### 4.6. Jogos para computador
+### 6.6. Jogos para computador
 
 Entre 2000 e 2010 os games para PC deram um verdadeiro salto quântico em sua qualidade visual.
 Os HDs ficaram maiores, as memórias se tornaram mais poderosas, as placas de som ganharam a qualidade de reproduzir som com qualidade de cinema. Mas nada disso seria útil se não fosse a evolução das placas de vídeo, que passaram a trabalhar em função dos processadores principais.
@@ -535,7 +532,7 @@ Menções honrosas:
 
 - Portal;
 
-### 4.7. Jogos para celular
+### 6.7. Jogos para celular
 
 Snake e o primeiro grande sucesso - Em 1998, a Nokia lançou modelos que chegavam  com três jogos pré-instalados: Memory, Snake e Logic.
 
@@ -562,9 +559,9 @@ A Nokia deu início ao projeto envolvendo o Symbian, um sistema operacional que 
 Apesar de ter feito pouco sucesso, esse dispositivo mostrou que a ideia de criar um aparelho com capacidades para jogos era essencial.
 O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas para jogos. Foi no iPhone 3GS que surgiu o famoso Andry Birds.
 
-## 5. Jogos mobile
-
 ***
+
+## 7. Jogos mobile
 
 {% include imagelocal.html
     src="jogatina_das_decadas/angry_birds_EAW3ICp.webp"
@@ -578,13 +575,13 @@ São jogos para plataformas móveis como por exemplo celulares ou outros disposi
 >
 >As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
 
-### 5.1. Monetização
+### 7.1. Monetização
 
 Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 
 - Google play - 90% da receita vieram por meio de anúncios e compras nos jogos.
 
-### 5.2. Modelos de monetização
+### 7.2. Modelos de monetização
 
 - Gratuito;
 
@@ -628,7 +625,7 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 
   - Chartboost;
 
-### 5.3. Tipos de anúncios
+### 7.3. Tipos de anúncios
 
 - Banners;
 
@@ -646,7 +643,7 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 
 - Vídeos;
 
-### 5.4. Qual o melhor modelo?
+### 7.4. Qual o melhor modelo?
 
 “...não há uma resposta certa para isso, já que tudo depende do seu jogo. Estatisticamente, as compras no aplicativo geram mais receita em jogos e aplicativos para dispositivos móveis, mas, se não fizer sentido para o seu jogo ter compras no aplicativo, não faça isso.
 Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
