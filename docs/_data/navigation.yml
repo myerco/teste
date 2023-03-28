@@ -73,6 +73,10 @@ dev_game:
     children:
       - title: Os jogos
         url: /pages/a_jogatina_das_decadas/
+      - title: Jogos Eletrônicos
+        url: /pages/a_jogatina_das_decadas/        
+      - title: O nosso comportamento
+        url: /pages/a_jogatina_das_decadas/                
   - title: Me conta uma história
     children:
         title: Organizando as ideias
