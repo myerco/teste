@@ -297,7 +297,9 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      sidebar:
+        nav: dev_game
   # _docs
   - scope:
       path: "_docs"

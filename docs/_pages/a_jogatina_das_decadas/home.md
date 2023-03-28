@@ -139,11 +139,6 @@ A origem da palavra deriva do de um termo do latim, *jocus*, que significa brinc
     caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
 %}
 
-<figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/jogatina_das_decadas/chess_game.webp"><img src="{{ site.baseurl }}/assets/images/jogatina_das_decadas/chess_game.webp"></a>
-  <figcaption>O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores.</figcaption>
-</figure>
-
 "Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
 tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da
 razão do século XVIII nos fizeram supor, e passou a ser de moda designar nossa espécie como *Homo faber*. Embora
