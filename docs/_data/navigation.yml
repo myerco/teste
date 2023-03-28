@@ -77,11 +77,11 @@ dev_game:
         url: /pages/computacao_grafica/      
       - title: Processamento de imagens 
         url:  /pages/computacao_grafica/processamento
-  - title: O CURSO DE JOGOS DIGITAIS        
+  - title: O CURSO
     children:
-      - title: Sobre o curso
-        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
+      - title: Sobre
+        url: /about/jogos_digitais
       - title: Talentos
-        url: /computacao-grafica/
+        url: /pages/talentos/
       - title: Trabalhos
-        url: /modelagem-usando-autodesk-maya/
+        url: /pages/trabalhos/

@@ -97,8 +97,8 @@ Utilizando e entendendo os elementos e as técnicas envolvidas na geração de i
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Blender_2.45_screenshot.jpg/384px-Blender_2.45_screenshot.jpg"
-    alt="Figura: Computer graphics - Wikipedia."
-    caption="Figura: Computer graphics - Wikipedia."
+    alt="Figura: Computer graphics."
+    caption="Wikipedia."
 %}
 
 ### 1.2. Computação gráfica para jogos digitais
@@ -109,8 +109,8 @@ Construir jogos digitais para que possam ser executados em diversas plataformas,
 
 {% include imagelocal.html
     src="computacao_grafica/game_dungeon_crowley.jpg"
-    alt="Figura: Dungeon Crowley - Estúdio Animvs."
-    caption="Figura: Dungeon Crowley - Estúdio Animvs."
+    alt="Figura: Dungeon Crowley."
+    caption="Estúdio Animvs."
 %}
 
 ### 1.3. O curso de Computação Gráfica
@@ -226,12 +226,10 @@ Aumentando a qualidade de cores a imagem terá uma aparência mais realista mas 
 
 Formatos de textura menores resultam em materiais mais rápidos (por exemplo, [DXT1](https://www.khronos.org/opengl/wiki/S3_Texture_Compression) é de 4 bits por pixel, DXT5 é de 8 bpp, ARGB descompactado é de 32 bpp).
 
->**DXT1**
->Compressão de imagens que usam blocos de bits.
->
->**GIMP**
->[Exportando imagens do **Gimp** com compressão DXT1](
-https://wiki.thedarkmod.com/index.php?title=DDS_Creation_with_GIMP)
+**Nota:** Compressão de imagens que usam blocos de bits.
+{: .notice--info}
+
+**GIMP:** [Exportando imagens do **Gimp** com compressão DXT1](https://wiki.thedarkmod.com/index.php?title=DDS_Creation_with_GIMP)
 
 ### 2.6. Linhas, raios e segmentos
 
@@ -327,14 +325,14 @@ Com botão direito pressionado (RMB) escolha **Face** para selecionar  a face.
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_maya_select_face.jpg"
-    alt="Figura: Maya RMB  Face - Autor."
-    caption="Maya RMB  Face."
+    alt="Figura: Maya RMB."
+    caption="Face."
 %}
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_maya_face.jpg"
     alt="Figura: Maya e seleção de Face."
-    caption="Maya e seleção de Face."
+    caption="A face selecionada fica em outra cor."
 %}
 
 #### 2.8.2. Faces no Unreal Engine
@@ -482,6 +480,3 @@ Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel comple
     caption="Sobreposição de elementos."
     ref="https://en.wikipedia.org/wiki/Alpha_compositing"
 %}
-
-***
-

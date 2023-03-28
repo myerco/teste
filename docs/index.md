@@ -29,6 +29,13 @@ feature_row:
     url: "/pages/me_conta_uma_historia/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "Me conta uma história"
+    title: "Computação gráfica"
+    excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
+    url: "/pages/computacao_grafica/"
+    btn_class: "btn--primary"
+    btn_label: "Saber mais"          
 ---
 
 {% include feature_row %}

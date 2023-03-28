@@ -230,8 +230,8 @@ Min Draw Distance = 0
 Desired Max Draw Distance = 1000
 ```
 
-**Informação:** O objeto vai ser renderizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
-{: .notice--info}
+**Nota:** O objeto vai ser renderizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
+{: .notice--warning}
 
 #### 2.4.3. Cull Distance Volume
 
@@ -451,11 +451,10 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
 {% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering.jpg"
     alt="Figura. 3 Objetos na cena."
-    caption="Figura. 3 Objetos na cena."
+    caption="Menu Project Settings > Rendering > Early Z-Pass."
 %}
 
-- Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos;
-- Menu `Project Settings` > `Rendering` > `Early Z-Pass`.
+Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos;
 
 ### 2.11. Drawcalls
 
@@ -465,8 +464,8 @@ Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaix
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall_2.jpg"
-    alt="Figura: A imagem acima renderiza 5 vezes."
-    caption="Figura: A imagem acima renderiza 5 vezes."
+    alt="Figura: 3 Objetos na cena."
+    caption="A imagem acima renderiza 5 vezes."
 %}
 
 1. Chão;
@@ -475,8 +474,8 @@ Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaix
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall.jpg"
-    alt="Figura: A imagem acima renderiza 6 vezes."
-    caption="Figura: A imagem acima renderiza 6 vezes."
+    alt="Figura: 3 Objetos na cena."
+    caption="A imagem acima renderiza 6 vezes."
 %}
 
 1. Chão;
@@ -487,14 +486,13 @@ Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaix
 {% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall_3.jpg"
     alt="Figura: Gemeotry Hendering Drawcall."
-    caption="Figura: Gemeotry Hendering Drawcall."
+    caption="Acima o passo a passo, a ordem de renderização depende da importância dos objetos na cena."
 %}
-
-Acima o passo a passo, a ordem de renderização depende da importância dos objetos na cena.
 
 O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena é classificada por tipo de material, isso é mais rápido do contrário, pois tem que fazer uma mudança de estado de renderização no hardware.
 
-> A ordem de renderização não tem impacto no processamento.
+**Nota:** A ordem de renderização não tem impacto no processamento.
+{: .notice--warning}
 
 ### 2.12. Comando Stat RHI
 
@@ -503,7 +501,7 @@ RHI significa Rendering Hardware Interface. Este comando exibe várias estatíst
 {% include imagelocal.html
     src="computacao_grafica/ue4_stat_rhi.jpg"
     alt="Figura: Stat RHI."
-    caption="Figura: Stat RHI."
+    caption="No Viewport aparece o relatório com as estatísticas."
 %}
 
 - `Render target memory` -  Mostra o peso total de alvos de renderização como o GBuffer (que armazena as informações finais sobre iluminação e materiais) ou mapas de sombras. O tamanho dos buffers depende da resolução de renderização do jogo, enquanto as sombras são controladas pelas configurações de qualidade das sombras. É útil verificar esse valor periodicamente em sistemas com várias quantidades de RAM de vídeo e, em seguida, ajustar as predefinições de qualidade do seu projeto de acordo.
@@ -523,10 +521,8 @@ stat RHI
 {% include imagelocal.html
     src="computacao_grafica/ue4_stat_unit.jpg"
     alt="Figura: Stat Unit."
-    caption="Figura: Stat Unit."
+    caption="Podemos obter informações mais específicas usando o comando stat unit. A hora do último quadro é mostrada com 4 números."
 %}
-
-Podemos obter informações mais específicas usando o comando stat unit. A hora do último quadro é mostrada com 4 números.
 
 - **Frame** - é igual ao FPS, o custo final;
 - **Game** - é o trabalho da CPU no código do jogo;
@@ -542,15 +538,21 @@ stat unit
 
 ### 2.14. Considerações
 
-- 2000 - 3.000 é razoável;
-- Mais de 5.000 esta ficando alto;
-- Mais de 10.000 é provavelmente um problema;
-- Em dispositivos moveis esse valor é muito menor;
-- Para verificar experimente executar o comando **stat RHI** e alterar o **View Mode** de **Lit** para **Unlit** e verifique os valores **Triângulos desenhados**;
-- **DrawCalls** tem um impacto grande na performance;
-- **DrawCalls** tem um mais impacto que a quantidade de polígonos em muitos cenários, exemplo:
-  Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material.
-  Cada triângulo com uma superfície diferentes é renderizado por vez.
+**1.** 2000 - 3.000 é razoável;
+
+**2.**Mais de 5.000 esta ficando alto;
+
+**3.** Mais de 10.000 é provavelmente um problema;
+
+**4.** Em dispositivos moveis esse valor é muito menor;
+
+**5.** Para verificar experimente executar o comando **stat RHI** e alterar o **View Mode** de **Lit** para **Unlit** e verifique os valores **Triângulos desenhados**;
+
+**6.** **DrawCalls** tem um impacto grande na performance;
+
+**7.** **DrawCalls** tem um mais impacto que a quantidade de polígonos em muitos cenários.
+
+_Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material. Cada triângulo com uma superfície diferentes é renderizado por vez.
 
 ## 3. ATIVIDADES
 
