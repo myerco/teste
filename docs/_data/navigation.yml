@@ -65,15 +65,15 @@ dev_game:
     children:
       - title: Unreal Engine com C++ e Blueprint
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
-  title: Modelagem usando Autodesk Maya
+  - title: Modelagem usando Autodesk Maya
     children:
       - title: Modelagem Maya
         url: /modelagem-usando-autodesk-maya/
-  title: A jogatina das décadas
+  - title: A jogatina das décadas
     children:
       - title: Os jogos
         url: /pages/a_jogatina_das_decadas/
-  title: Me conta uma história
+  - title: Me conta uma história
     children:
         title: Organizando as ideias
         url: /pages/me_conta_uma_historia/
