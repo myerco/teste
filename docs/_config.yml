@@ -115,7 +115,7 @@ author:
       url: "mailto:cafegeekedu@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://cafegeek.eti.br"
+      url: "https://cafegeek.eti.br"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
