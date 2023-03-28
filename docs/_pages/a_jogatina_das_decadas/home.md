@@ -115,11 +115,9 @@ toc: true
 
 ## 1. O que é um Jogo?
 
-***
-
-> "Life is a Game"
+> Life is a Game
 >
-> Animvs
+> <cite><a href="https://animvs.com/">Animvs</a></cite>
 
 Podemos definir um jogo através das suas principais características.
 
@@ -150,7 +148,8 @@ tanto na vida humana como na animal, e é tão importante como o raciocínio e o
 que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expressão *Homo ludens* merece um lugar em
 nossa nomenclatura."
 
-> Latim “Ludus”, “Ludere” que designava os jogos infantis.
+**Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
+{: .notice--info}
 
 ### 1.1. O curso de Jogatina das Décadas
 
