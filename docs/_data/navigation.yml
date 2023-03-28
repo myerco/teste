@@ -65,23 +65,23 @@ dev_game:
     children:
       - title: Unreal Engine com C++ e Blueprint
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
-  - title: Modelagem usando Autodesk Maya
+  - title: MODELAGEM USANDO AUTODESK MAYA
     children:
       - title: Modelagem Maya
         url: /modelagem-usando-autodesk-maya/
-  - title: A jogatina das décadas
+  - title: A JOGATINA DAS DÉCADAS
     children:
       - title: Os jogos
         url: /pages/a_jogatina_das_decadas/
       - title: Jogos Eletrônicos
-        url: /pages/a_jogatina_das_decadas/        
-      - title: O nosso comportamento
-        url: /pages/a_jogatina_das_decadas/                
-  - title: Me conta uma história
+        url: /pages/a_jogatina_das_decadas/jogos        
+      - title: O comportamento
+        url: /pages/a_jogatina_das_decadas/comportamento                
+  - title: ME CONTA UMA HISTÓRIA
     children:
-        title: Organizando as ideias
+      - title: Organizando as ideias
         url: /pages/me_conta_uma_historia/
-        title: Os Elementos da história
+      - title: Os elementos da história
         url: /pages/elementos_historia/        
   - title: COMPUTAÇÃO GRÁFICA    
     children:
