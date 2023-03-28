@@ -168,7 +168,7 @@ Geralmente o fluxo de trabalhado pode ser definido pelas etapas de **Conceito**,
 
 ### 2.1. Conceito
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/10.webp"
     alt="Figura: Game design for PUBBY."
     caption="Game design for PUBBY - <https://www.dsource.in/case-study/game-design-pubby/design-process/>."
@@ -394,7 +394,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 ### 3.4. O que nos inspira?
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/04190615075402.webp"
     alt="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa."
     caption="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - <https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise> ."
@@ -432,7 +432,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 >
 > Alan Wake.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/AR18-1.webp"
     alt="Figura: 10 dicas e truques para criar personagens inesquecíveis."
     caption="Figura: 10 dicas e truques para criar personagens inesquecíveis - <https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/> ."
@@ -592,7 +592,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
 
 A busca pela vingança fez o personagem trilhar o caminho cegamente e violentamente.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/cenarios-gladiador.jpg"
     alt="Figura: Cladiador."
     caption="Figura: Filme Cladiador."
@@ -614,7 +614,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 - Dos amigos.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/0cdf6b4c-op_mission_ghost_last.webp"
     alt="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
     caption="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
@@ -963,7 +963,7 @@ Inimigos não inimigos.
 
 ### 5.7. BOSS
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/nemesis_t-type_wiki-1024x512.webp"
     alt="Figura: Nemesis T-Type."
     caption="Figura: Nemesis T-Type - <https://residentevil.com.br>."
@@ -977,7 +977,7 @@ Inimigos não inimigos.
 
 - Combinação.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="me_conte_uma_historia/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.webp"
     alt="Figura: Darth Vader nos games."
     caption="Figura: Darth Vader nos games: uma história visual - <https://br.ign.com>."
