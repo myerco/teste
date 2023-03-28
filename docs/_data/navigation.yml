@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Desenvolvimento de Jogos"
+    url: /pages/qsuick-start-guide/
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
@@ -12,7 +12,7 @@ main:
     url: /pages/
   - title: "Collections"
     url: /collection-archive/
-  - title: "External Link"
+  - title: "Sobre"
     url: /about/
 
 docs:
@@ -61,14 +61,20 @@ docs:
         url: /docs/javascript/
 
 dev_game:
-  - title: DESENVOLVIMENTO DE JOGOS
+  - title: UNREAL ENGINE
     children:
-      - title: Unreal Engine com C++ e Blueprint
+      - title: Introdução
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
-  - title: MODELAGEM USANDO AUTODESK MAYA
+      - title: Programação
+        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html        
+      - title: Movimentação e Animação
+        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html                
+      - title: Materiais
+        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html                        
+  - title: MODELAGEM 3D
     children:
-      - title: Modelagem Maya
-        url: /modelagem-usando-autodesk-maya/
+      - title: Autodesk Maya
+        url: /pages/modelagem3d
   - title: A JOGATINA DAS DÉCADAS
     children:
       - title: Os jogos
