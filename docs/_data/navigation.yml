@@ -66,13 +66,16 @@ dev_game:
       - title: Unreal Engine com C++ e Blueprint
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
       - title: Computação Gráfica com Unreal Engine
-        url: /pages/computacao-grafica/
+        url: /pages/computacao_grafica/
+        children:
+          - title: Modulo 1
+            url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
       - title: Modelagem usando Autodesk Maya
         url: /modelagem-usando-autodesk-maya/
       - title: A jogatina das décadas
         url: /pages/a_jogatina_das_decadas/
       - title: Me conta uma história
-        url: /pages/me_conte_uma_historia/
+        url: /pages/me_conta_uma_historia/
   - title: O CURSO DE JOGOS DIGITAIS        
     children:
       - title: Sobre o curso
