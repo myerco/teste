@@ -8,6 +8,7 @@ toc: true
 
 ***
 
+<!--
 - [1. O que é um Jogo?](#1-o-que-é-um-jogo)
   - [1.1. O curso de Jogatina das Décadas](#11-o-curso-de-jogatina-das-décadas)
     - [1.1.1. Habilidades que serão aprendidas](#111-habilidades-que-serão-aprendidas)
@@ -108,6 +109,7 @@ toc: true
     - [9.4.6. Complexidade](#946-complexidade)
     - [9.4.7. Conexão entre esforço e recompensa](#947-conexão-entre-esforço-e-recompensa)
 - [10. Atividades e referências](#10-atividades-e-referências)
+-->
 
 ***
 
